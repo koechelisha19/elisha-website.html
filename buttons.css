@@ -1,0 +1,43 @@
+
+.subscribe-button{
+background-color: red;
+color: white;
+font-size: 20px;
+height: 60px;
+width: 150px;
+border: none;
+border-radius: 2px;
+transition: green 1s;
+box-shadow: 2px 3px 4px black;
+padding-top: 15px;
+padding-bottom: 10px;
+
+}
+
+
+.subscribe-button:hover{
+background-color: blue;
+cursor: pointer;
+}
+.subscribe-button:active{
+    background-color: brown;
+    color: white;
+    border-style: solid;
+    border: none;
+    opacity: 0.5;
+}
+
+.Instagram-button {
+    background-color: brown;
+    width: 100px;
+    border: none;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+    
+
+
+}
