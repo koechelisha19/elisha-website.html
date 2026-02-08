@@ -1,0 +1,85 @@
+ 
+ .main-body{
+  background-color: aqua;
+ }.main-margin{
+    height: 500px;
+    width: 400px;
+    border: solid;
+    border-color: rgba(255, 255, 255, 0.277);
+    background-color: white;
+    color: blue;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+   
+ }
+   .google-img{
+      height: 38px;
+      display: flex;
+      position: absolute;
+      top: 0px;
+      left: 140px;
+      
+   }
+   .google-acc{
+      display: flex;
+      position: absolute;
+      top: 75px;
+      color: black;
+   }
+ .placeholder{
+height: 29px;
+margin: 10px;
+width: 250px;
+border-radius: 6px;
+border: 3px solid red;
+animation: moveBorder 0.9s infinite alternate;
+ }
+@keyframes moveBorder {
+   0%   {border-color: red;}
+   50%  {border-color: blue;}
+   100% {border-color: green;}
+}
+
+ 
+ .sign-in{
+   background-color: rgb(60, 60, 247);
+   color: white;
+   padding: 6px 105px;
+   border-radius: 5px;
+   
+ }
+ .sign-in:active {
+   background-color: red;
+ }
+ .tick{
+   height: 17px;
+   width: 15px;
+   background-color: burlywood;
+   border-radius: 5px;
+   margin-right: 5px;
+
+   
+ }
+ .stay{
+   display: flex;
+   flex-direction: row;
+   margin-right: 140px;
+   margin-top: 10px;
+   color: black;
+   
+ }
+ .tick:hover, .sign-in:hover {
+   background-color: rgb(205, 36, 36);
+   color: black;
+ }
+ .help{
+   display: flex;
+   margin-top: -20px;
+   margin-left: 180px;
+ }
