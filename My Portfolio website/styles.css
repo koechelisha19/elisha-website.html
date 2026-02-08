@@ -1,0 +1,254 @@
+.main-body{
+    height: 1000px;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 80px;
+    background-color:rgb(70, 68, 68);
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.left-section{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.left-section div{
+    display: flex;
+
+}
+.left-section div:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.eli{
+    color: brown;
+}
+
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+
+}
+.right-section{
+    width: 400px;
+
+}
+.right-section button:hover{
+    background-color: aqua;
+
+}
+.middle-section p:hover, .left-section p:hover,
+.left-section eli:hover,
+.main button:hover {
+    color: brown;
+    text-decoration: underline;
+
+}.right-section button{
+    height: 30px;
+    margin-left: 150px;
+    border-radius: 5px;
+    width: 100px;
+
+}
+.first-page-div{
+    background-color: white;
+    height: 700px;
+    margin-top: 10px;
+    width: max;
+
+} 
+.main{
+    margin-top: 67px;
+    margin-left: 120px;
+    margin-right: 100px;
+    font-size: 40px;
+     background-color: white;
+    display: flex;
+}
+   
+
+    .main button{
+border-radius: 8px;
+    }
+
+.main-2{
+    color: white;
+    font-size: 30px;
+}
+.main-2 button{
+    border-radius: 4px;
+
+}
+.description{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    height: 400px;
+    width: 400px;
+    border-radius: 6600px;
+    margin-top: 50px;
+    margin-left: 20px;
+
+
+}
+ .image-2{
+    height: 400px;
+    width: 400px;
+    border-radius: 6600px;
+    margin-right: 70px;
+    margin-left: 70px;
+ }
+.my-name{
+    color: brown;
+}
+.main button, .main-2 button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(225, 107, 107);
+    color:black;
+}
+.main button:hover,
+.main-2 button:hover{
+background-color:white;
+}
+.footer{
+ display: flex;
+ flex-direction: column;
+ width: 700px;
+ height: 800px;
+ background-color: white;
+ align-items: center;
+ margin: 80px 500px 0px 400px;
+ border-radius: 5px;
+ align-self: center;
+ 
+}
+.footer-input{
+    height:40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 400px;
+    
+}
+.second-page-div{
+    background-color: black;
+    height: 600px;
+    display: flex;
+}
+.message{
+    height: 250px;
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+.message::placeholder{
+   text-align: top;
+   position: absolute;
+   top: 5px;
+
+}
+.footer p{
+    color: black;
+    font-weight: bold;
+}
+.footer div{
+    border: solid;
+    margin-top: 5px;
+    height: 25px;
+    border-radius: 4px;
+    padding: 2px 4px 2px 4px;
+}
+.text-area{
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    margin-top: 14px;
+}
+.footer-2{
+    height: 80px;
+    background-color: black;
+    position: flex;
+    flex-direction: row;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    width: max;
+}
+.terms-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+    margin: 2px 530px 2px;
+    color: white;
+    height: 20px;
+    padding-left: 20px;
+
+}
+.terms-div p:hover{
+    text-decoration: underline;
+    font-size: 16px;
+
+}
+.copy-right{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin: 0px 490px 0px ;
+    color: white;
+    align-items: center;
+    height: 20px;
+    padding-right: 30px;
+
+}
+.copy-right button
+    {
+   margin-left: 152px; 
+   border-radius: 10px; 
+   height: 15px;   
+   width: 15px;
+   padding: 2px 2px 2px 2px;
+   display: flex;
+   align-items: center;
+   color: black;
+   justify-content: center;
+   font-size: 15px;
+    }
+    .footer-img img{
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+    margin-left: 4px;
+
+    }
+    .footer-img{
+        margin-left: 670px;
+        padding: 10px;
+        height: 15px;
+        margin-top: 100px;
+    }
+    .footer-img img:hover{
+   height:20px;
+   width: 20px;
+   border: solid;
+   border-color: red;
+    }
