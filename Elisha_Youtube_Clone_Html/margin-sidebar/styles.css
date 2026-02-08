@@ -1,0 +1,37 @@
+.margin{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100000;
+}
+.margin-link{
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+    width: 75px;
+}
+.margin-link:hover{
+background-color: rgb(237, 232, 232);
+ cursor: pointer;
+}
+ .margin-link img{
+    height: 22px;
+    margin-bottom: 6px;
+}
+.margin-link div{
+    font-size: 12px;
+    display: flex;
+
+
+}

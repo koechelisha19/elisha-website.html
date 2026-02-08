@@ -1,0 +1,109 @@
+.main-body{
+height: 1300px;
+border: solid;
+margin: 0;
+
+
+}
+
+.thumbnail{
+    margin-bottom: 0px;
+    width: 100%; 
+    
+    
+}
+.thumbnail-div{
+    position: relative;
+
+
+    
+
+}
+.time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 7px;
+    right: 3px;
+    border-radius: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 14px;
+
+
+}
+
+.channel-pictures{
+    height: 45px;
+    width: 45px;
+    border-radius: 70px;
+
+    
+}
+.channel-pictures-div{
+    display: inline-blocK;
+    margin-left: 0px;
+    margin-top: 0px;
+
+
+
+}
+.info-large-div{
+    
+    display: flex;
+    margin-top: 6px;
+
+}
+.info-div{
+margin-left: 5px;
+
+
+
+    
+}
+
+.video-title{
+
+    margin-bottom: 8px;
+    
+
+}
+.video-author{
+    margin-top: 5px;
+    margin-bottom: 4px;
+    color: rgb(21, 1, 1);
+
+}
+.video-info{
+
+margin-bottom: 4px;
+}
+.hamburger-menu{
+    height: 34px;
+    width: 35px;
+}
+.youtube-logo{
+    height: 27px;
+    width: 80px;
+    margin-left: 12px;
+}
+
+
+.Main-Grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+margin-top: 69px;
+margin-left: 100px;
+row-gap: 20px;
+column-gap: 20px;
+
+position: relative;
+
+
+}
+ @media (max-width: 400px) {
+    .main-grid {
+     grid-template-columns: 1fr 1fr;
+    }
+
+    }
